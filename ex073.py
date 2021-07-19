@@ -1,0 +1,6 @@
+times = ('Interacional', 'Flamengo', 'Atletico MG', 'Fluminense', 'Sao Paulo', 'Santos', 'Palmeiras', 'Fortaleza', 'Gremio', 'Ceara', 'Atletico GO', 'Sport', 'Corintias', 'Bahia', 'Bragantino', 'Botafogo', 'Vasco', 'Atletico PR', 'Coritiba', 'Goias')
+print(f'Lista de times: {times}')
+print(f'5 primeiros: {times[:5]}')
+print(f'4 ultimos: {times[16:]}')
+print(f'Ordem alfabetica: {sorted(times)}')
+print(f"Flamengo esta na {times.index('Flamengo') + 1} posição")
